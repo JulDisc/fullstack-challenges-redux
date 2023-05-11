@@ -1,0 +1,45 @@
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("https://www.10wallpaper.com/wallpaper/1920x1080/1410/Coast_Sunset-HD_Desktop_Wallpaper_1920x1080.jpg");
+    background-size: cover;
+    color: white;
+    padding: 120px 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.banner h1 {
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 20px;
+    color: white;
+    opacity: .7;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.banner a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container {
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+}
+
+.content {
+    margin: 0 auto;
+    width: 700px;
+    text-align: justify;
+}

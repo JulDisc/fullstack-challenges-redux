@@ -1,0 +1,27 @@
+/* Choisis une couleur de fond (background-color), un style de police (font-family), une couleur (color), une taille de police (font-size) et une hauteur de ligne (line-height) pour le corps (<body>). Si tu définis ces règles de police au niveau du corps, elles s’appliqueront à toutes les balises de texte de base (<p>, <li>, etc.). */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+    background-color: #f6efef;
+    font-family: 'Open Sans', sans-serif;
+    color: #968e8e;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 300;
+}
+
+h1, h2, h3 {
+    font-family: Poppins, sans-serif;
+    color: #524d4d;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: darkblue;
+}
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+}

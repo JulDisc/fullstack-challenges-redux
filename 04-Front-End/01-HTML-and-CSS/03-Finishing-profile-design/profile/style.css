@@ -1,0 +1,81 @@
+body {
+  color:#393E46 ;
+  background-color: #F7F7F7;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Libre Baskerville', serif;
+  color: #393E46;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.btn-blue {
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  background-color: blueviolet;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-top: 15px;
+  padding: 0.8em;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.btn-blue:hover {
+  box-shadow: inset 100% 0 0 0 #3C84AB;
+  color: white;
+}
+
+p {
+  color: #6D9886;
+  font-size: 15px;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+
+#follow {
+  color: #6D9886;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+/* permet de centrer le contenu de la page dans un conteneur (container) en utilisant les marges à gauche et à droite pour éviter qu’il n’occupe 100 % de la fenêtre */
+.container {
+  width: 600px;   /* Définit la largeur */
+  margin: 100px auto; /* 'auto' Définit automatiquement les marges à gauche/droite */
+}
+
+/* La classe <div class="card"> sert à regrouper des informations dans une jolie carte (card) blanche. */
+
+.card-white {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  padding: 41px;
+  margin: 16px;
+  text-align: center ;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 35px;
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 20px 0;
+}

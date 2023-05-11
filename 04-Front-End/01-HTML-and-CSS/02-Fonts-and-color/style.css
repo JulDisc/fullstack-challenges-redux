@@ -1,0 +1,33 @@
+body {
+  color:#393E46 ;
+  background-color: #F7F7F7;
+  font-size: 18px;
+  line-height: 10px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Libre Baskerville', serif;
+  color: #393E46;
+  font-weight: 200;
+  font-size: 32px;
+}
+
+a {
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #362FD9;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 100px 0 0 0 #3C84AB;
+  color: white;
+}
+
+#follow {
+  color: #6D9886;
+  font-size: 18px;
+  font-weight: 100;
+}
